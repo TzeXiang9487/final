@@ -1,0 +1,33 @@
+[
+    {
+        "email": "xiang@gmail.com",
+        "passwordHash": "$2y$10$mFx7Gby3nJ0uR1oCKLqwjOIjgs3iJcSy5X9akKxLiL24R2RqPfCQW",
+        "categories": [
+            "Animation",
+            "Horror",
+            "Western"
+        ],
+        "createdAt": "2025-11-05T15:08:08+01:00"
+    },
+    {
+        "email": "wasd@gmail.com",
+        "passwordHash": "$2y$10$zYuc2BdeiUbPJh7CeZbVNuV1AaI1xS8Oxf4KRJY2bQeyqn16kW72C",
+        "categories": [
+            "Crime",
+            "Musical",
+            "Historical"
+        ],
+        "createdAt": "2025-11-05T16:28:45+01:00"
+    },
+    {
+        "email": "jkl@gmail.com",
+        "passwordHash": "$2y$10$FYir51i0Vl1BlLQF6yd7TuKDLt00RlMZjxYtg6TataI6dIESh5pLi",
+        "categories": [
+            "Animation",
+            "Action",
+            "Sci-Fi",
+            "Romance"
+        ],
+        "createdAt": "2025-11-07T10:17:14+01:00"
+    }
+]

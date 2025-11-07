@@ -1,0 +1,734 @@
+[05-Nov-2025 15:13:31 Europe/Berlin] SQL: INSERT INTO bookings (
+        user_email, movie_name, location, time, selected_date, 
+        seats_list, seats_count, seats_price, food_items, food_total, 
+        grand_total, cardholder_name, card_number_masked
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[05-Nov-2025 15:13:31 Europe/Berlin] Values: userEmail=xiang@gmail.com, movieName=Demon Slayer: Mugen Train, location=City Plaza Alor Setar, time=10:00 PM, selectedDate=WED, 05/11, seatsCount=2, seatsPrice=30, foodTotal=10, grandTotal=40
+[06-Nov-2025 14:38:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:47 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:38:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:39:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:40:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:40:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:40:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:40:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:40:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:42:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:42:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:42:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:42:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:42:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:43:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:43:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:43:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:43:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:47:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:48:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:50:42 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:50:42 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:50:42 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:50:42 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=15672 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:50:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:50:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:50:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:50:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:51:40 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=25168 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:51:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=25168 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=25168 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=25168 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=25168 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=25168 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=25168 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=25168 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:52:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=8996 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=8996 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=8996 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=8996 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=8996 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=8996 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 14:55:37 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:08:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=10476 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:08:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=10476 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:08:17 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=10476 in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:08:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:08:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:08:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:10:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:11:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:11:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:12:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:13:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:13:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:14:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:14:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:14:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:14:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:14:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:18:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:24:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:24:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:43:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:47:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:54:09 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:54:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:54:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:54:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:56:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 15:57:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 16:00:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 16:00:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 16:00:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 16:01:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 16:01:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[06-Nov-2025 16:01:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\movie_booking_app\config.php:14
+Stack trace:
+#0 C:\xampp\htdocs\movie_booking_app\config.php(14): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'movie_booking')
+#1 C:\xampp\htdocs\movie_booking_app\fetch_bookings.php(2): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\movie_booking_app\config.php on line 14
+[07-Nov-2025 08:49:50 Europe/Berlin] SQL: INSERT INTO bookings (
+        user_email, movie_name, location, time, selected_date, 
+        seats_list, seats_count, seats_price, food_items, food_total, 
+        grand_total, cardholder_name, card_number_masked
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[07-Nov-2025 08:49:50 Europe/Berlin] Values: userEmail=guest@example.com, movieName=Conan: The Million-dollar Pentagram, location=Sunway Carnival Mall, time=12:00 PM, selectedDate=FRI, 07/11, seatsCount=1, seatsPrice=15, foodTotal=10, grandTotal=25
+[07-Nov-2025 10:19:07 Europe/Berlin] SQL: INSERT INTO bookings (
+        user_email, movie_name, location, time, selected_date, 
+        seats_list, seats_count, seats_price, food_items, food_total, 
+        grand_total, cardholder_name, card_number_masked
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[07-Nov-2025 10:19:07 Europe/Berlin] Values: userEmail=guest@example.com, movieName=Demon Slayer: Infinity Castle, location=Toppen Shopping Centre, time=10:00 PM, selectedDate=FRI, 07/11, seatsCount=3, seatsPrice=45, foodTotal=10, grandTotal=55
+[07-Nov-2025 10:44:07 Europe/Berlin] SQL: INSERT INTO bookings (
+        user_email, movie_name, location, time, selected_date, 
+        seats_list, seats_count, seats_price, food_items, food_total, 
+        grand_total, cardholder_name, card_number_masked
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[07-Nov-2025 10:44:07 Europe/Berlin] Values: userEmail=guest@example.com, movieName=Demon Slayer: Mugen Train, location=The Spring Shopping Mall, time=4:00 PM, selectedDate=FRI, 07/11, seatsCount=1, seatsPrice=15, foodTotal=10, grandTotal=25

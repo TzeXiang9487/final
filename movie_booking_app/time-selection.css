@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at 50% 10%, #001122 0%, #000a14 40%, #000000 100%);
+    color: #00ccff;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(to right, #001f3f, #003366, #001f3f);
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 255, 0.5);
+    position: relative;
+    z-index: 10;
+}
+
+.back-btn {
+    background: #00ccff;
+    color: #001f3f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 20px;
+}
+
+.back-btn:hover {
+    background: #0099cc;
+    transform: translateX(-3px);
+}
+
+.main-title {
+    color: #00ccff;
+    text-shadow: 0 0 8px rgba(0, 204, 255, 0.7);
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.time-selection-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.selected-movie-info {
+    background: rgba(0, 20, 40, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #00ccff;
+    box-shadow: 0 5px 20px rgba(0, 204, 255, 0.3);
+}
+
+.movie-info-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.movie-info-text h2 {
+    margin: 0 0 10px 0;
+    color: #00ccff;
+    text-shadow: 0 0 5px rgba(0, 204, 255, 0.5);
+    font-size: 1.5em;
+}
+
+.movie-description {
+    margin: 0 0 10px 0;
+    color: #e0e0e0;
+    line-height: 1.5;
+}
+
+.selected-date {
+    margin: 0;
+    color: #00ccff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Two Column Layout */
+.selection-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.selection-section {
+    background: rgba(0, 20, 40, 0.6);
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid #00ccff;
+    flex: 1;
+}
+
+.selection-section h2 {
+    color: #00ccff;
+    text-shadow: 0 0 5px rgba(0, 204, 255, 0.5);
+    margin-bottom: 20px;
+    border-bottom: 1px solid #00ccff;
+    padding-bottom: 10px;
+}
+
+/* State Categories */
+.state-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.state-category {
+    border: 1px solid rgba(0, 204, 255, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    background: rgba(0, 10, 20, 0.4);
+}
+
+.state-title {
+    color: #00ccff;
+    margin: 0 0 15px 0;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px rgba(0, 204, 255, 0.5);
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 204, 255, 0.2);
+}
+
+.location-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 12px;
+}
+
+/* Time Options */
+.time-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.time-slot-group {
+    border: 1px solid rgba(0, 204, 255, 0.2);
+    border-radius: 8px;
+    padding: 15px;
+    background: rgba(0, 10, 20, 0.3);
+}
+
+.time-period {
+    color: #00ccff;
+    margin: 0 0 12px 0;
+    font-size: 1.1em;
+    text-shadow: 0 0 3px rgba(0, 204, 255, 0.5);
+}
+
+.time-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* Option Cards */
+.option-card {
+    background: #001522;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 153, 255, 0.3);
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.option-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 204, 255, 0.5);
+    border-color: #00ccff;
+}
+
+.option-card.selected {
+    background: #002b4d;
+    border-color: #00ccff;
+    box-shadow: 0 0 15px rgba(0, 204, 255, 0.8);
+    transform: scale(1.05);
+}
+
+.option-card h4 {
+    margin: 0 0 5px 0;
+    color: #00ccff;
+    font-size: 1em;
+}
+
+.option-card p {
+    margin: 0;
+    color: #e0e0e0;
+    font-size: 0.8em;
+}
+
+.action-section {
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+.continue-btn {
+    background-color: #00ccff;
+    color: #001f3f;
+    border: none;
+    padding: 18px 40px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 204, 255, 0.5);
+    min-width: 250px;
+}
+
+.continue-btn:hover:not(:disabled) {
+    background-color: #33d6ff;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 204, 255, 0.8);
+}
+
+.continue-btn:disabled {
+    background-color: #555;
+    color: #aaa;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .selection-layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .location-options {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .movie-info-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .location-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .time-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    header {
+        padding: 15px 20px;
+    }
+    
+    .main-title {
+        font-size: 1.4em;
+    }
+    
+    .time-selection-container {
+        padding: 20px 15px;
+    }
+    
+    .selection-section {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .location-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .time-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .option-card {
+        padding: 12px;
+        min-height: 55px;
+    }
+    
+    .option-card h4 {
+        font-size: 0.9em;
+    }
+    
+    .option-card p {
+        font-size: 0.75em;
+    }
+    
+    .state-title {
+        font-size: 1.1em;
+    }
+    
+    .time-period {
+        font-size: 1em;
+    }
+}

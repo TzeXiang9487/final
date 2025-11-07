@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Beyond The Screen</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+
+    <header>
+    
+      <a href="index.html" class="back-to-home-btn">← Back to Home</a>
+  </header>
+
+  <main class="auth-container">
+    <h1>Welcome Back</h1>
+    <form onsubmit="return loginUser(event)" class="auth-form">
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" id="loginEmail" required placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+            <label>Password:</label>
+            <input type="password" id="loginPassword" required placeholder="Enter your password">
+        </div>
+
+        <button type="submit">Sign In</button>
+        <p>Don't have an account? <a href="signup.html">Sign up here</a>.</p>
+    </form>
+</main>
+
+<script>
+function loginUser(event) {
+  event.preventDefault();
+  const email = document.getElementById("loginEmail").value.trim();
+  const password = document.getElementById("loginPassword").value;
+
+  fetch('login.php', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, password })
+  })
+  .then(res => res.json().then(body => ({ ok: res.ok, body })))
+.then(({ ok, body }) => {
+    if (!ok) {
+        alert(body.error || 'Invalid email or password.');
+        return;
+    }
+    localStorage.setItem('loggedInUser', body.email);
+    
+    // Also fetch and store user categories for sparkle functionality
+    fetch('get_user_categories.php?email=' + encodeURIComponent(body.email))
+    .then(res => res.json())
+    .then(userData => {
+        const usersData = JSON.parse(localStorage.getItem("usersData") || "[]");
+        const existingUserIndex = usersData.findIndex(u => u.email === body.email);
+        
+        if (existingUserIndex !== -1) {
+            usersData[existingUserIndex] = { ...usersData[existingUserIndex], ...userData };
+        } else {
+            usersData.push({ email: body.email, ...userData });
+        }
+        
+        localStorage.setItem("usersData", JSON.stringify(usersData));
+    })
+    .catch(err => {
+        console.error("Error loading user categories:", err);
+    })
+    .finally(() => {
+        alert('Login successful!');
+        window.location.href = 'index.html';
+    });
+})
+  .catch(err => {
+    console.error(err);
+    alert('Network error');
+  });
+
+  return false;
+}
+</script>
+</body>
+</html>

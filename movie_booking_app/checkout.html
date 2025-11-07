@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Beyond The Screen</title>
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎬 Final Checkout</h1>
+    <p>Review your selections before confirming your order.</p>
+  </header>
+
+  <div class="summary-box" id="movie-summary">
+    <h2>🎞️ Movie & Showtime</h2>
+    <!-- Content will be dynamically added by checkout.js -->
+  </div>
+
+  <div class="summary-box" id="seats-summary">
+    <h2>💺 Seats</h2>
+    <!-- Content will be dynamically added by checkout.js -->
+  </div>
+
+  <div class="summary-box" id="food-summary">
+    <h2>🍿 Food & Drinks</h2>
+    <!-- Content will be dynamically added by checkout.js -->
+  </div>
+
+  <div class="summary-box payment-details">
+    <h2>💳 Payment Details</h2>
+    <div class="form-group">
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" placeholder="XXXX XXXX XXXX XXXX" maxlength="19" required>
+    </div>
+    <div class="form-group">
+      <label for="card-name">Cardholder Name:</label>
+      <input type="text" id="card-name" placeholder="Name on Card" required>
+    </div>
+    <div class="form-group expiration-cvv">
+      <div class="expiration-date">
+        <label for="expiry-month">Expiry Date:</label>
+        <input type="text" id="expiry-month" placeholder="MM" maxlength="2" required>
+        <span> / </span>
+        <input type="text" id="expiry-year" placeholder="YY" maxlength="2" required>
+      </div>
+      <div class="cvv">
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" placeholder="XXX" maxlength="4" required>
+      </div>
+    </div>
+    <!-- Payment date field removed -->
+  </div>
+
+  <div class="summary-box">
+    <h2>🧾 Total Payment</h2>
+    <div class="order-item total">Grand Total: <span id="grand-total">RM 0.00</span></div>
+  </div>
+
+  <button class="action-btn" id="confirm-payment-btn">✅ Confirm Booking</button>
+
+  <!-- Custom Confirmation Modal -->
+  <div id="confirmation-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-message"></p>
+      <button id="modal-ok-btn" class="modal-button">OK</button>
+    </div>
+  </div>
+
+  <script src="checkout.js"></script>
+
+</body>
+</html>

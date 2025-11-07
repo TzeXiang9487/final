@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Menu - Beyond The Screen</title>
+  <link rel="stylesheet" href="food.css">
+</head>
+<body>
+  <header>
+    <h1>🍿 Food & Drinks Menu</h1>
+    <p>Select any items you'd like to add to your order.</p>
+  </header>
+
+  <section class="food-menu" id="food-menu">
+    <div class="food-item" data-name="Combo Set 1" data-price="8.00">
+      <img src="image/food/chips + coke.png" alt="Combo Set 1">
+      <h2>Combo Set 1</h2>
+      <p>Chips + Coke</p>
+      <span class="price">RM 8.00</span>
+    </div>
+
+    <div class="food-item" data-name="Combo Set 2" data-price="10.00">
+      <img src="image/food/coke + nugget.png" alt="Combo Set 2">
+      <h2>Combo Set 2</h2>
+      <p>Nugget + Coke</p>
+      <span class="price">RM 10.00</span>
+    </div>
+
+    <div class="food-item" data-name="Combo Set 3" data-price="10.00">
+      <img src="image/food/popcorn + coffee.png" alt="Combo Set 3">
+      <h2>Combo Set 3</h2>
+      <p>Popcorn + Coffee</p>
+      <span class="price">RM 10.00</span>
+    </div>
+
+    <div class="food-item" data-name="Combo Set 4" data-price="8.00">
+      <img src="image/food/popcorn + coke.png" alt="Combo Set 4">
+      <h2>Combo Set 4</h2>
+      <p>Popcorn + Coke</p>
+      <span class="price">RM 8.00</span>
+    </div>
+  </section>
+
+  <div class="summary">
+    <h3>Order Summary</h3>
+    <p>Food & Drinks Total: <span id="food-total">RM 0.00</span></p>
+  </div>
+  
+  <div class="action-button-container">
+    <button id="checkout-btn" class="action-btn">Proceed to Checkout</button>
+  </div>
+
+  <script src="food.js"></script>
+</body>
+</html>

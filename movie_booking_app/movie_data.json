@@ -1,0 +1,143 @@
+{
+    "The Boy and the Heron": {
+        "description": "A young boy enters a mysterious world guided by a talking heron.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/t5khm-VjEu4",
+        "image": "image\/movie\/\u82cd\u9e6d.jpg",
+        "rating": 7.6,
+        "labels": [
+            "Animation",
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    "Your Name": {
+        "description": "Two strangers mysteriously swap bodies and try to find each other.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/xU47nhruN-Q",
+        "image": "image\/movie\/Your_name.jpg",
+        "rating": 8.2,
+        "labels": [
+            "Animation",
+            "Romance",
+            "Drama",
+            "Fantasy"
+        ]
+    },
+    "Howl's Moving Castle": {
+        "description": "A girl cursed by a witch finds refuge in a magical walking castle.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/iwROgK94zcM",
+        "image": "image\/movie\/Howls-moving-castleposter.jpg",
+        "rating": 8.2,
+        "labels": [
+            "Animation",
+            "Fantasy",
+            "Adventure",
+            "Romance"
+        ]
+    },
+    "Suzume": {
+        "description": "Suzume helps close magical doors causing disasters across Japan.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/Ktuzyg5gW0E",
+        "image": "image\/movie\/suzume.jpg",
+        "rating": 7.7,
+        "labels": [
+            "Animation",
+            "Adventure",
+            "Fantasy",
+            "Drama"
+        ]
+    },
+    "Gundam Unicorn": {
+        "description": "A teen pilot discovers the power of the mysterious Unicorn Gundam.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/U5D3hK1_vs0",
+        "image": "image\/movie\/gundam uc.png",
+        "rating": 8.1,
+        "labels": [
+            "Animation",
+            "Sci-Fi",
+            "Action",
+            "Mecha"
+        ]
+    },
+    "FGO: Final Singularity": {
+        "description": "The Chaldea team faces the final battle to save humanity's future.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/9Bqk1KIsWXE",
+        "image": "image\/movie\/fgo.jpg",
+        "rating": 7.8,
+        "labels": [
+            "Animation",
+            "Action",
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    "Demon Slayer: Mugen Train": {
+        "description": "Tanjiro and friends face a powerful demon aboard a haunted train.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/bFwdl2PDAFM",
+        "image": "image\/movie\/Kimetsu_no_Yaiba_Mugen_Ressha_Hen_Poster.jpg",
+        "rating": 8.2,
+        "labels": [
+            "Animation",
+            "Action",
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    "Conan: The Million-dollar Pentagram": {
+        "description": "Conan faces off against a legendary thief in a battle of wits over a priceless sword.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/VyHV0BRtdxo",
+        "image": "image\/movie\/Conan_Movie_27.jpg",
+        "rating": 7.5,
+        "labels": [
+            "Animation",
+            "Mystery",
+            "Action",
+            "Adventure"
+        ]
+    },
+    "Attack on Titan: The Last Attack": {
+        "description": "In a final stand, humanity battles to end the titan threat once and for all.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/IMgzCGzK5B8",
+        "image": "image\/movie\/aot.webp",
+        "rating": 9,
+        "labels": [
+            "Animation",
+            "Action",
+            "Fantasy",
+            "Drama"
+        ]
+    },
+    "Fate\/stay night: Heaven's Feel": {
+        "description": "Dark secrets unfold as the Holy Grail War reaches its darkest path.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/d1wHnvNcG00",
+        "image": "image\/movie\/fsn hf.jpg",
+        "rating": 8.2,
+        "labels": [
+            "Animation",
+            "Action",
+            "Fantasy",
+            "Drama"
+        ]
+    },
+    "Demon Slayer: Infinity Castle": {
+        "description": "In this epic final battle, the slayers face off against the remaining Upper Rank demons in a visually stunning, high-stakes showdown between humanity and the forces of darkness.",
+        "trailer": "https:\/\/www.youtube.com\/embed\/mufPWqFMpmU?si=YZmY9nU6JjgbdqYW",
+        "image": "image\/movie\/demon-slayer-infinity-castle.jpg",
+        "rating": 9.1,
+        "labels": [
+            "Animation",
+            "Action",
+            "Fantasy",
+            "Adventure"
+        ]
+    },
+    "Chainsaw Man - The Movie: Reze Arc": {
+        "description": "The Reze Arc in Chainsaw Man follows Denji\u2019s brief romance with Reze, a girl who turns out to be the Bomb Devil Hybrid sent to capture him, leading to a tragic clash between love and duty.",
+        "trailer": "https:\/\/youtu.be\/GJ1jrCnm-t8?si=ozSO9ihCQAgi9T0k",
+        "image": "image\\movie\\filters_quality_95_format_webp_.jpg",
+        "rating": 8.2,
+        "labels": [
+            "Animation",
+            "Action"
+        ]
+    }
+}

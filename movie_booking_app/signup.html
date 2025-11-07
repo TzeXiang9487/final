@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Beyond The Screen</title>
+  <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+
+  <header>
+    
+      <a href="index.html" class="back-to-home-btn">← Back to Home</a>
+  </header>
+
+  <main class="auth-container">
+    <h1>Create an Account</h1>
+    <form onsubmit="return signupUser(event)" class="auth-form">
+      <label>Email:</label>
+      <input type="email" id="signupEmail" required />
+
+<label>Password:</label>
+<input type="password" id="signupPassword" required />
+
+<div class="categories-section">
+    <label>Choose Your Favorite Movie Categories (select up to 5)</label>
+    <div class="categories-grid" id="categoriesContainer">
+        <div class="category-option">
+            <input type="checkbox" id="animation" value="Animation">
+            <label for="animation">Animation</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="action" value="Action">
+            <label for="action">Action</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="fantasy" value="Fantasy">
+            <label for="fantasy">Fantasy</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="adventure" value="Adventure">
+            <label for="adventure">Adventure</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="drama" value="Drama">
+            <label for="drama">Drama</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="scifi" value="Sci-Fi">
+            <label for="scifi">Sci-Fi</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="romance" value="Romance">
+            <label for="romance">Romance</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="mystery" value="Mystery">
+            <label for="mystery">Mystery</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="horror" value="Horror">
+            <label for="horror">Horror</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="comedy" value="Comedy">
+            <label for="comedy">Comedy</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="thriller" value="Thriller">
+            <label for="thriller">Thriller</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="crime" value="Crime">
+            <label for="crime">Crime</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="family" value="Family">
+            <label for="family">Family</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="documentary" value="Documentary">
+            <label for="documentary">Documentary</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="musical" value="Musical">
+            <label for="musical">Musical</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="western" value="Western">
+            <label for="western">Western</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="historical" value="Historical">
+            <label for="historical">Historical</label>
+        </div>
+        <div class="category-option">
+            <input type="checkbox" id="superhero" value="Superhero">
+            <label for="superhero">Superhero</label>
+        </div>
+    </div>
+    <div class="selection-counter" id="selectionCounter">0/5 selected</div>
+</div>
+
+<button type="submit">Sign Up</button>
+<p>Already have an account? <a href="login.html">Log in here</a>.</p>
+    </form>
+  </main>
+
+<script>
+function signupUser(event) {
+    event.preventDefault();
+    const email = document.getElementById("signupEmail").value.trim();
+    const password = document.getElementById("signupPassword").value;
+    
+    // Get selected categories
+    const selectedCategories = [];
+    document.querySelectorAll('.categories-grid input[type="checkbox"]:checked').forEach(checkbox => {
+        selectedCategories.push(checkbox.value);
+    });
+
+    fetch('signup.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+            email, 
+            password,
+            categories: selectedCategories 
+        })
+    })
+    .then(res => res.json().then(body => ({ ok: res.ok, body })))
+    .then(({ ok, body }) => {
+    if (!ok) {
+        alert(body.error || 'Signup failed');
+        return;
+    }
+    
+    // Store user data in localStorage for immediate sparkle functionality
+    if (body.userData) {
+        const usersData = JSON.parse(localStorage.getItem("usersData") || "[]");
+        usersData.push(body.userData);
+        localStorage.setItem("usersData", JSON.stringify(usersData));
+    }
+    
+    alert('Account created successfully. Please log in.');
+    window.location.href = 'login.html';
+})
+    .catch(err => {
+        console.error(err);
+        alert('Network error');
+    });
+
+    return false;
+}
+
+// Category selection limit and counter
+document.addEventListener('DOMContentLoaded', function() {
+    const checkboxes = document.querySelectorAll('.categories-grid input[type="checkbox"]');
+    const counter = document.getElementById('selectionCounter');
+    
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const selectedCount = document.querySelectorAll('.categories-grid input[type="checkbox"]:checked').length;
+            
+            // Update counter
+            counter.textContent = `${selectedCount}/5 selected`;
+            
+            // Limit to 5 selections
+            if (selectedCount >= 5) {
+                checkboxes.forEach(cb => {
+                    if (!cb.checked) {
+                        cb.disabled = true;
+                        cb.parentElement.style.opacity = '0.6';
+                    }
+                });
+            } else {
+                checkboxes.forEach(cb => {
+                    cb.disabled = false;
+                    cb.parentElement.style.opacity = '1';
+                });
+            }
+            
+            // Add selected class for styling
+            if (this.checked) {
+                this.parentElement.classList.add('selected');
+            } else {
+                this.parentElement.classList.remove('selected');
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

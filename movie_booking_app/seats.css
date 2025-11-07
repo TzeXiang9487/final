@@ -1,0 +1,217 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* More theatrical radial gradient with subtle glow */
+  background: radial-gradient(circle at 50% 50%, #000a14 0%, #000000 70%, #1a1a1a 100%),
+              url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100"><rect width="100" height="100" fill="transparent"/><circle cx="50" cy="50" r="1" fill="rgba(0, 200, 255, 0.05)"/></svg>') top left / 50px 50px repeat; /* Subtle light diffusion/noise */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+    margin-bottom: 25px;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+header h1 {
+  margin-bottom: 15px;
+  color: #00bfff;
+  text-shadow: 0 0 8px rgba(0, 204, 255, 0.7);
+  font-size: 2.5em;
+}
+
+#booking-details {
+    font-size: 1.2em;
+    color: #00ccff;
+    padding: 10px;
+    background-color: #001f3f;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+/* Seat Layout Styling */
+.seat-layout {
+  perspective: 1000px;
+  margin: 20px auto;
+  padding: 40px 20px;
+  border: 3px solid #00ccff;
+  border-radius: 15px;
+  background: rgba(0, 10, 20, 0.8);
+  box-shadow: 0 10px 30px rgba(0, 204, 255, 0.5);
+  transform: rotateX(15deg); /* Perspective effect */
+  max-width: 800px;
+  width: 90%;
+}
+
+/* NEW STYLE: Disable seat selection visually for non-logged-in users */
+.seat-layout.disabled-selection {
+    opacity: 0.6; /* Dim the seats */
+    cursor: not-allowed;
+}
+
+.screen {
+  background-color: #333;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto 50px auto;
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
+  font-size: 1.5em;
+  text-shadow: 0 0 5px black;
+  transform: rotateX(-5deg);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.label {
+    color: #00bfff;
+    font-weight: bold;
+    width: 25px;
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.seats {
+    display: flex;
+    gap: 5px;
+}
+
+.seat {
+  background-color: #444;
+  height: 35px;
+  width: 35px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 0.8em;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.seat.available:hover {
+  transform: scale(1.1);
+  background-color: #666;
+}
+
+.seat.selected {
+  background-color: #00ccff; /* Neon blue for selected */
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ccff;
+}
+
+.seat.taken {
+  background-color: #ff4d4d; /* Red for taken */
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Legend Styling */
+.legend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+.legend > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.selected-legend {
+    background-color: #00ccff;
+    height: 15px;
+    width: 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.summary {
+  margin-top: 40px;
+  background-color: #001f3f;
+  border: 2px solid #00bfff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 8px 25px rgba(0, 191, 255, 0.5);
+  transition: transform 0.3s;
+  /* Gradient background for summary box */
+  background: linear-gradient(to top left, #001a35, #003366);
+}
+
+.summary:hover {
+    transform: translateY(-5px);
+}
+
+.summary p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #e0e0e0;
+}
+
+.summary p strong {
+  color: #00bfff;
+  text-shadow: 0 0 5px #00bfff;
+}
+
+#total-price {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 15px #00bfff;
+  margin-top: 15px;
+}
+
+.action-button-container {
+  margin-top: 20px;
+}
+
+#confirm-seats-btn {
+  background-color: #00bfff;
+  color: #000;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 15px rgba(0, 191, 255, 0.6);
+}
+
+#confirm-seats-btn:hover:not(:disabled) {
+  background-color: #00ffff;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 204, 255, 0.8);
+}
+
+#confirm-seats-btn:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+  opacity: 0.8;
+  box-shadow: none;
+}

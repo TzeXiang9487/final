@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Time & Location - Beyond The Screen</title>
+    <link rel="stylesheet" href="time-selection.css">
+</head>
+<body>
+    <header>
+        <button class="back-btn" id="backBtn">← Back</button>
+        <h1 class="main-title">Select Time & Location</h1>
+    </header>
+
+    <main class="time-selection-container">
+        <div class="selected-movie-info" id="selectedMovieInfo">
+            <!-- Movie info will be populated by JavaScript -->
+        </div>
+
+        <div class="selection-layout">
+            <!-- Left Column - Locations by State -->
+            <div class="left-column">
+                <div class="selection-section">
+                    <h2>Select Location</h2>
+                    <div class="state-categories" id="locationOptions">
+                        <!-- Penang -->
+                        <div class="state-category">
+                            <h3 class="state-title">Penang</h3>
+                            <div class="location-options">
+                                <div class="option-card" data-location="Gurney Plaza">
+                                    <h4>Gurney Plaza</h4>
+                                    <p>Persiaran Gurney, Penang</p>
+                                </div>
+                                <div class="option-card" data-location="Queensbay Mall">
+                                    <h4>Queensbay Mall</h4>
+                                    <p>Bayan Lepas, Penang</p>
+                                </div>
+                                <div class="option-card" data-location="Sunway Carnival Mall">
+                                    <h4>Sunway Carnival Mall</h4>
+                                    <p>Seberang Jaya, Penang</p>
+                                </div>
+                                <div class="option-card" data-location="1st Avenue Mall">
+                                    <h4>1st Avenue Mall</h4>
+                                    <p>George Town, Penang</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Kuala Lumpur & Selangor -->
+                        <div class="state-category">
+                            <h3 class="state-title">Kuala Lumpur & Selangor</h3>
+                            <div class="location-options">
+                                <div class="option-card" data-location="Pavilion Kuala Lumpur">
+                                    <h4>Pavilion Kuala Lumpur</h4>
+                                    <p>Bukit Bintang, Kuala Lumpur</p>
+                                </div>
+                                <div class="option-card" data-location="Suria KLCC">
+                                    <h4>Suria KLCC</h4>
+                                    <p>Kuala Lumpur City Centre</p>
+                                </div>
+                                <div class="option-card" data-location="Mid Valley Megamall">
+                                    <h4>Mid Valley Megamall</h4>
+                                    <p>Mid Valley City, Kuala Lumpur</p>
+                                </div>
+                                <div class="option-card" data-location="Sunway Pyramid">
+                                    <h4>Sunway Pyramid</h4>
+                                    <p>Bandar Sunway, Selangor</p>
+                                </div>
+                                <div class="option-card" data-location="One Utama">
+                                    <h4>One Utama</h4>
+                                    <p>Bandar Utama, Selangor</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Johor -->
+                        <div class="state-category">
+                            <h3 class="state-title">Johor</h3>
+                            <div class="location-options">
+                                <div class="option-card" data-location="Johor Bahru City Square">
+                                    <h4>Johor Bahru City Square</h4>
+                                    <p>Johor Bahru, Johor</p>
+                                </div>
+                                <div class="option-card" data-location="Toppen Shopping Centre">
+                                    <h4>Toppen Shopping Centre</h4>
+                                    <p>Tebrau, Johor Bahru</p>
+                                </div>
+                                <div class="option-card" data-location="Paradigm Mall Johor Bahru">
+                                    <h4>Paradigm Mall JB</h4>
+                                    <p>Johor Bahru, Johor</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Melaka -->
+                        <div class="state-category">
+                            <h3 class="state-title">Melaka</h3>
+                            <div class="location-options">
+                                <div class="option-card" data-location="Dataran Pahlawan Melaka Megamall">
+                                    <h4>Dataran Pahlawan</h4>
+                                    <p>Melaka City, Melaka</p>
+                                </div>
+                                <div class="option-card" data-location="AEON Mall Melaka">
+                                    <h4>AEON Mall Melaka</h4>
+                                    <p>Melaka City, Melaka</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Perak -->
+                        <div class="state-category">
+                            <h3 class="state-title">Perak</h3>
+                            <div class="location-options">
+                                <div class="option-card" data-location="Ipoh Parade">
+                                    <h4>Ipoh Parade</h4>
+                                    <p>Ipoh, Perak</p>
+                                </div>
+                                <div class="option-card" data-location="AEON Mall Ipoh Falim">
+                                    <h4>AEON Mall Ipoh Falim</h4>
+                                    <p>Ipoh, Perak</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Kedah -->
+                        <div class="state-category">
+                            <h3 class="state-title">Kedah</h3>
+                            <div class="location-options">
+                                <div class="option-card" data-location="Aman Central Mall">
+                                    <h4>Aman Central Mall</h4>
+                                    <p>Alor Setar, Kedah</p>
+                                </div>
+                                <div class="option-card" data-location="City Plaza Alor Setar">
+                                    <h4>City Plaza Alor Setar</h4>
+                                    <p>Alor Setar, Kedah</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sabah -->
+                        <div class="state-category">
+                            <h3 class="state-title">Sabah</h3>
+                            <div class="location-options">
+                                <div class="option-card" data-location="Suria Sabah">
+                                    <h4>Suria Sabah</h4>
+                                    <p>Kota Kinabalu, Sabah</p>
+                                </div>
+                                <div class="option-card" data-location="Imago Shopping Mall">
+                                    <h4>Imago Shopping Mall</h4>
+                                    <p>Kota Kinabalu, Sabah</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sarawak -->
+                        <div class="state-category">
+                            <h3 class="state-title">Sarawak</h3>
+                            <div class="location-options">
+                                <div class="option-card" data-location="Vivacity Megamall">
+                                    <h4>Vivacity Megamall</h4>
+                                    <p>Kuching, Sarawak</p>
+                                </div>
+                                <div class="option-card" data-location="The Spring Shopping Mall">
+                                    <h4>The Spring Shopping Mall</h4>
+                                    <p>Kuching, Sarawak</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column - Time Selection -->
+            <div class="right-column">
+                <div class="selection-section">
+                    <h2>Select Time</h2>
+                    <div class="time-options" id="timeOptions">
+                        <div class="time-slot-group">
+                            <h4 class="time-period">Morning</h4>
+                            <div class="time-grid">
+                                <div class="option-card" data-time="10:00 AM">10:00 AM</div>
+                                <div class="option-card" data-time="11:00 AM">11:00 AM</div>
+                            </div>
+                        </div>
+                        
+                        <div class="time-slot-group">
+                            <h4 class="time-period">Afternoon</h4>
+                            <div class="time-grid">
+                                <div class="option-card" data-time="12:00 PM">12:00 PM</div>
+                                <div class="option-card" data-time="1:00 PM">1:00 PM</div>
+                                <div class="option-card" data-time="2:00 PM">2:00 PM</div>
+                                <div class="option-card" data-time="3:00 PM">3:00 PM</div>
+                                <div class="option-card" data-time="4:00 PM">4:00 PM</div>
+                                <div class="option-card" data-time="5:00 PM">5:00 PM</div>
+                            </div>
+                        </div>
+                        
+                        <div class="time-slot-group">
+                            <h4 class="time-period">Evening</h4>
+                            <div class="time-grid">
+                                <div class="option-card" data-time="6:00 PM">6:00 PM</div>
+                                <div class="option-card" data-time="7:00 PM">7:00 PM</div>
+                                <div class="option-card" data-time="8:00 PM">8:00 PM</div>
+                                <div class="option-card" data-time="9:00 PM">9:00 PM</div>
+                            </div>
+                        </div>
+                        
+                        <div class="time-slot-group">
+                            <h4 class="time-period">Night</h4>
+                            <div class="time-grid">
+                                <div class="option-card" data-time="10:00 PM">10:00 PM</div>
+                                <div class="option-card" data-time="11:00 PM">11:00 PM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-section">
+            <button class="continue-btn" id="continueBtn" disabled>Continue to Seats</button>
+        </div>
+    </main>
+
+    <script src="time-selection.js"></script>
+</body>
+</html>

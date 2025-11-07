@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seat Selection</title>
+  <link rel="stylesheet" href="seats.css">
+</head>
+<body>
+  <header>
+    <h1>🎟️ Movie Seat Selection</h1>
+    <div id="booking-details"></div>
+  </header>
+
+  <div class="seat-layout">
+    <div class="screen">SCREEN</div>
+
+    <!-- Rows A to E -->
+    <div class="row" data-row="A"><div class="label">A</div>
+      <div class="seats">
+        <div class="seat available" data-seat="A1"></div><div class="seat available" data-seat="A2"></div><div class="seat available" data-seat="A3"></div>
+        <div class="seat taken" data-seat="A4"></div><div class="seat available" data-seat="A5"></div><div class="seat available" data-seat="A6"></div>
+        <div class="seat available" data-seat="A7"></div><div class="seat available" data-seat="A8"></div><div class="seat available" data-seat="A9"></div>
+        <div class="seat available" data-seat="A10"></div>
+      </div>
+    </div>
+
+    <div class="row" data-row="B"><div class="label">B</div>
+      <div class="seats">
+        <div class="seat available" data-seat="B1"></div><div class="seat available" data-seat="B2"></div><div class="seat available" data-seat="B3"></div>
+        <div class="seat available" data-seat="B4"></div><div class="seat taken" data-seat="B5"></div><div class="seat available" data-seat="B6"></div>
+        <div class="seat available" data-seat="B7"></div><div class="seat available" data-seat="B8"></div><div class="seat available" data-seat="B9"></div>
+        <div class="seat available" data-seat="B10"></div>
+      </div>
+    </div>
+
+    <div class="row" data-row="C"><div class="label">C</div>
+      <div class="seats">
+        <div class="seat available" data-seat="C1"></div><div class="seat available" data-seat="C2"></div><div class="seat available" data-seat="C3"></div>
+        <div class="seat available" data-seat="C4"></div><div class="seat available" data-seat="C5"></div><div class="seat taken" data-seat="C6"></div>
+        <div class="seat available" data-seat="C7"></div><div class="seat available" data-seat="C8"></div><div class="seat available" data-seat="C9"></div>
+        <div class="seat available" data-seat="C10"></div>
+      </div>
+    </div>
+
+    <div class="row" data-row="D"><div class="label">D</div>
+      <div class="seats">
+        <div class="seat available" data-seat="D1"></div><div class="seat available" data-seat="D2"></div><div class="seat available" data-seat="D3"></div>
+        <div class="seat available" data-seat="D4"></div><div class="seat available" data-seat="D5"></div><div class="seat available" data-seat="D6"></div>
+        <div class="seat available" data-seat="D7"></div><div class="seat taken" data-seat="D8"></div><div class="seat available" data-seat="D9"></div>
+        <div class="seat available" data-seat="D10"></div>
+      </div>
+    </div>
+
+    <div class="row" data-row="E"><div class="label">E</div>
+      <div class="seats">
+        <div class="seat available" data-seat="E1"></div><div class="seat available" data-seat="E2"></div><div class="seat available" data-seat="E3"></div>
+        <div class="seat available" data-seat="E4"></div><div class="seat available" data-seat="E5"></div><div class="seat available" data-seat="E6"></div>
+        <div class="seat available" data-seat="E7"></div><div class="seat available" data-seat="E8"></div><div class="seat available" data-seat="E9"></div>
+        <div class="seat taken" data-seat="E10"></div>
+      </div>
+    </div>
+
+    <div class="legend">
+      <div><div class="seat available"></div> Available</div>
+      <div><div class="seat selected-legend"></div> Selected</div>
+      <div><div class="seat taken"></div> Taken</div>
+    </div>
+  </div>
+
+  <div class="summary">
+    <p>Selected Seats: <span id="seats-list">None</span></p>
+    <p>Total: <span id="total-price">RM 0.00</span></p>
+  </div>
+  
+  <div class="action-button-container">
+    <button id="confirm-seats-btn" class="action-btn" disabled>Add Food & Drinks</button>
+  </div>
+
+
+  <script src="seats.js"></script>
+</body>
+</html>
